@@ -12,6 +12,9 @@ public class HelloWorld {
 
     @GetMapping("/hello")
     public String helloWorld(){
+
+        int i = 1;
+
         return "hello world";
     }
 
