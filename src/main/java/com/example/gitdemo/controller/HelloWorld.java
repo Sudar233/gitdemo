@@ -25,6 +25,12 @@ public class HelloWorld {
         return "test";
     }
 
+    //增加数据3
+    @GetMapping("/hello3")
+    public String helloWorld3(){
+        return "test3";
+    }
+
 
 
 
