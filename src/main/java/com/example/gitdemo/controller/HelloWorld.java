@@ -22,7 +22,7 @@ public class HelloWorld {
     //增加数据
     @GetMapping("/hello2")
     public String helloWorld2(){
-        return "hello world";
+        return "test";
     }
 
 
